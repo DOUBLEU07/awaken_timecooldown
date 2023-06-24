@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap');
+* {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.container {
+    position: absolute;
+    right: 2%;
+    top: 20.5%;
+    transform: translateY(-50%);
+    /* background-color: rgba(18, 20, 23, 0.6); */
+    background-image: url(https://media.discordapp.net/attachments/717968342434185246/1102811706159267860/Dcar.png);
+    /* background-color: black; */
+    /* background-size: cover; */
+    /* box-shadow: 0 0 10px rgb(167, 33, 219);
+    border-left: 0.4vh solid #fb73f0;
+    border-right: 0.4vh solid #fb73f0; */
+    /* background-size: 85%; */
+    background-repeat: no-repeat;
+    height: 8vh;
+    border-radius: 1vh;
+    width: 33vh;
+    /* display: none; */
+    z-index: 50;
+    overflow: hidden;
+}
+
+#box-content {
+    position: absolute;
+    width: 35vh;
+    height: 10vh;
+    left: -2vh;
+    top: 0vh;
+    border-radius: 0.5vh;
+    /* background-color: rgba(18, 20, 23, 0.4); */
+}
+
+#titleText {
+    position: absolute;
+    width: 20vh;
+    height: 2vh;
+    top: 1vh;
+    left: 4vh;
+    line-height: 2vh;
+    color: #00c65b;
+    font-size: 2.2vh;
+    text-align: left;
+}
+
+#time-content {
+    position: absolute;
+    width: 33vh;
+    height: 3vh;
+    left: 9vh;
+    bottom: 3vh;
+    border-radius: 0.4vh;
+    /* background: rgb(18, 20, 23, 0.4); */
+}
+
+#Time {
+    width: 100%;
+    height: 100%;
+    font-size: 2.0vh;
+    /*line-height: 4vh;*/
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+
+#txtMin {
+    color: #03e2ff;
+    font-weight: 600;
+}
+
+#txtSec {
+    color: #03e2ff;
+    font-weight: 600;
+}
+
+#subText {
+    position: absolute;
+    width: 25vh;
+    height: 2vh;
+    line-height: 2vh;
+    color: white;
+    top: 3vh;
+    left: 11vh;
+    font-size: 1.15vh;
+    text-align: left;
+    font-weight: 300;
+}
+
+#logo-content {
+    position: absolute;
+    width: 5vh;
+    height: 5vh;
+    right: 1vh;
+    top: 1vh;
+    border-radius: 0.5vh;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#logo {
+    /* position: absolute;
+    width: 4vh;
+    height: 4vh;
+    top: 0.5vh;
+    left: 0.5vh;
+    background-image: url(https://media.discordapp.net/attachments/895548305206038528/1059880600091230218/1024.png);
+    background-size: cover;
+    animation: 3s ease 0s infinite normal none running LogoRotate; */
+}
+
+@keyframes LogoRotate {
+    0% {
+        transform: rotate(-360deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
